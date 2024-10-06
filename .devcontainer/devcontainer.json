@@ -6,7 +6,8 @@
 
   "remoteUser": "codespace",
   "overrideCommand": false,
-   "customizations": {
+ // Add the IDs of extensions you want installed when the container is created.
+ "customizations": {
      "vscode": {
          "extensions": [
              "GitHub.copilot"
@@ -17,4 +18,5 @@
              "codespace.md"
          ]
      }
+  }
 }
